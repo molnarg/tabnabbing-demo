@@ -55,5 +55,5 @@ that "There isn't really anything to fix here. The hostname is the only authorit
 IE (at least in version 11 and above) is protected against this kind of attack. The attempt
 to change to opener window location is blocked by the popup blocker:
 
-![IE behaviour](https://molnarg.github.io/ie.png)
+![IE behaviour](https://molnarg.github.io/tabnapping-demo/ie.png)
 
