@@ -49,6 +49,10 @@ Most sites don't care about this attack, Twitter and Google however does have a 
 They don't open links in new tabs directly. Instead, they open a redirector page that sets `window.opener`
 to null, and then redirects the user to the destination using JavaScript.
 
+Opener is set to null automatically for links with `rel="noreferrer"`. Setting this on user provided links
+provides protection against this kind of attack. The cost of this solution is that the referring site won't
+show up as referrer in analytics on the referred sites.
+
 Chrome developers say in [this bug report](https://code.google.com/p/chromium/issues/detail?id=45008#c1))
 that "There isn't really anything to fix here. The hostname is the only authoritative identifier for a site".
 
