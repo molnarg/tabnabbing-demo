@@ -6,4 +6,5 @@ Lorem ipsum lorem ipsum.
 
 <a href="http://molnarg.github.io/tabnabbing-demo/decoy_document.html" target="_blank">Interesting link you should click on.</a>
 
-License: MIT.
+![Tabnabbing Demo](https://molnarg.github.io/tabnabbing-demo/tabnabbing_demo.gif)
+
