@@ -43,13 +43,17 @@ For an explanation and a video, please scoll down.
 Tabnabbing was first described by [Aza Raskin](https://twitter.com/aza) in a slightly different scenario
 [here](http://www.azarask.in/blog/post/a-new-type-of-phishing-attack/).
 
-## A possible fix
+## Possible solutions
 
 Most sites don't care about this attack, Twitter and Google however does have a protection against it.
 They don't open links in new tabs directly. Instead, they open a redirector page that sets `window.opener`
 to null, and then redirects the user to the destination using JavaScript.
 
-Browser vendors probably won't fix this, since they say (at least Chrome developers in
-[this bug report](https://code.google.com/p/chromium/issues/detail?id=45008#c1)) "There isn't really anything to fix here.
-The hostname is the only authoritative identifier for a site".
+Chrome developers say in [this bug report](https://code.google.com/p/chromium/issues/detail?id=45008#c1))
+that "There isn't really anything to fix here. The hostname is the only authoritative identifier for a site".
+
+IE (at least in version 11 and above) is protected against this kind of attack. The attempt
+to change to opener window location is blocked by the popup blocker:
+
+![IE behaviour](https://molnarg.github.io/ie.png)
 
