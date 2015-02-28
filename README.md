@@ -1,10 +1,30 @@
-This is a very interesting project.
+# Tabnabbing demo
 
-This is the description of the project.
+Suppose you find an interesting link in a GitHub project README file and you click on it.
 
-Lorem ipsum lorem ipsum.
+<a href="http://molnarg.github.io/tabnabbing-demo/decoy_document.html" target="_blank">For the demo, click on this interesting link.</a>
 
-<a href="http://molnarg.github.io/tabnabbing-demo/decoy_document.html" target="_blank">Interesting link you should click on.</a>
+For an explanation and a video, please scoll down.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
 
 ![Tabnabbing Demo](https://molnarg.github.io/tabnabbing-demo/tabnabbing_demo.gif)
 
